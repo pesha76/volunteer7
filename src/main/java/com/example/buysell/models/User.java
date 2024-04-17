@@ -23,6 +23,7 @@ public class User implements UserDetails {
     private Image avatar;
     private Integer hours;
     private Integer rubls;
+    private boolean org;
     private boolean active;
     private String activationCode;
     @Column(length = 1000)
@@ -107,6 +108,9 @@ public class User implements UserDetails {
     public void setActive(boolean active) {
         this.active = active;
     }
+    public void setOrg(boolean org) {
+        this.org = org;
+    }
 
     public String getActivationCode() {
         return activationCode;
@@ -124,7 +128,7 @@ public class User implements UserDetails {
         return roles;
     }
 
-    public void setRoles(Set<Role> roles) {
+    public void setRole(Set<Role> roles) {
         this.roles = roles;
     }
 
@@ -179,5 +183,6 @@ public class User implements UserDetails {
     public void setRubls(Integer rubls) {
         this.rubls = rubls;
     }
+
 
 }

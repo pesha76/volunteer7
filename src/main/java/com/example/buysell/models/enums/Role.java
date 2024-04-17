@@ -2,6 +2,10 @@ package com.example.buysell.models.enums;
 
 import org.springframework.security.core.GrantedAuthority;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
 public enum Role implements GrantedAuthority {
     ROLE_USER, ROLE_ADMIN;
 
@@ -9,4 +13,9 @@ public enum Role implements GrantedAuthority {
     public String getAuthority() {
         return name();
     }
+
+
+
+
+
 }

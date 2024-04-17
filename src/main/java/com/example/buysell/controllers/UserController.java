@@ -53,4 +53,10 @@ public class UserController {
         model.addAttribute("products", user.getProducts());
         return "user-info";
     }
+    @GetMapping("/profile/org")
+    public String org(Principal principal, Model model){
+        model.addAttribute("user", userService.getUserByPrincipal(principal));
+
+        return "org";
+    }
 }
