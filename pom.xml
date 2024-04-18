@@ -86,7 +86,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>buysell-0.0.1-SNAPSHOT</mainClass>
+                            <mainClass>target/buysell-0.0.1-SNAPSHOT.jar</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
