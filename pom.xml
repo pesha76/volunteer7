@@ -86,14 +86,13 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>BuysellApplication</mainClass>
+                            <mainClass>src/main/java/com/example/buysell/BuysellApplication.java</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 
 
 
