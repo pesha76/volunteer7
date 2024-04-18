@@ -16,7 +16,7 @@
         <br>
         Количество часов:<b>${user.hours}</b>
         <br>
-        Количество часов:<b>${user.rubls}</b>
+        Количество бонусных рублей:<b>${user.rubls}</b>
         <br>
         <br>
         <a class="btn btn-dark mb-3" style="text-align: center; width: 100%"

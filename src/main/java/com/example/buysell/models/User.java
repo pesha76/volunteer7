@@ -21,8 +21,8 @@ public class User implements UserDetails {
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn
     private Image avatar;
-    private Integer hours;
-    private Integer rubls;
+    private Integer hours = 0;
+    private Integer rubls = 0;
     private boolean org;
     private boolean active;
     private String activationCode;

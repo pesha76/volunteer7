@@ -13,7 +13,7 @@
     </div>
     <br>
     <hr>
-    <h1 style="text-align: center">Товары пользователя ${user.name}</h1>
+    <h1 style="text-align: center">Мероприятия пользователя ${user.name}</h1>
     <br>
     <div class="card-columns">
         <#list products as product>
