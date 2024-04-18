@@ -86,7 +86,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>src/main/java/com/example/buysell/BuysellApplication.java</mainClass>
+                            <mainClass>src/main/java/com/example/buysell/BuysellApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
